@@ -1,0 +1,66 @@
+/* src/App.css */
+.App {
+    text-align: center;
+    background-color: #2c2c2c;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1200px;
+    gap: 30px; /* Add gap between flex items */
+  }
+  
+  .search-time, .make-reservation {
+    flex: 1;
+    padding: 30px;
+    background-color: #333;
+    border-radius: 10px;
+  }
+  
+  .search-time h2, .make-reservation h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin: 10px 0 5px;
+  }
+  
+  input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    background-color: #555;
+    color: white;
+  }
+  
+  button {
+    background-color: #444;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  

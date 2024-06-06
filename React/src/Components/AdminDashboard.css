@@ -1,0 +1,32 @@
+/* src/AdminDashboard.css */
+
+.dashboard-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.dashboard-container h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.options-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-items: center;
+}
+
+.option-box {
+  background-color: #555;
+  padding: 40px;
+  border-radius: 10px;
+  width: 150px;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+}
+
+.option-box:hover {
+  background-color: black;
+}
